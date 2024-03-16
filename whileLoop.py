@@ -16,3 +16,15 @@ while y >= 0:
     print(y)
     if y == 90:
         break
+
+for i in range(10, 21, 2):
+    if i == 16:
+        continue
+    print(i)
+
+z = 100
+while z >= 0:
+    z = z - 10
+    if z == 10:
+        continue
+    print(z)
