@@ -12,3 +12,7 @@ print(d,c,b)
 
 x = list(range(10, 0, -2))
 print(x)
+
+y = range(10, 21)
+print(y)
+
