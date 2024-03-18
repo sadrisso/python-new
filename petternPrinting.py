@@ -14,3 +14,8 @@ for m in range(1, 10):
     for n in range(m):
         print('1', end = ' ')
     print()
+
+for c in range(1, 10):
+    for d in range(c):
+        print(chr(64+c), end = ' ')
+    print()
