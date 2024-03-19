@@ -7,3 +7,10 @@ for i in range(1, a+1):
 b = int(input('Enter your number: '))
 for i in range(1, 10):
     print(b, 'X', i, '=', b*i)
+
+
+c = int(input('Enter a number: '))
+factorial = 1
+for i in range(1, c+1):
+    factorial = factorial*i
+print(factorial)
