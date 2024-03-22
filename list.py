@@ -4,3 +4,9 @@ print(a[4])
 print(a[0])
 a[0] = 'changed'
 print(a[0])
+
+
+b = [11, 23, 45.5, 'Ami', 'tmi']
+print(b[-3])
+print(b[-1])
+print(b[4])
