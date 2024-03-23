@@ -31,3 +31,30 @@ a.extend(['Miraj', 'Mahmudullah', 'Mahmudul', 'Munim'])
 print(a)
 a+=['Miraj', 'Mahmudullah']
 print(a)
+
+
+m = [1,2,3,45,6]
+
+print(m.pop())
+print(m)
+
+m.remove(m[3])
+print(m)
+
+n = [1,2,3,4,5]
+# n.clear()
+print(n)
+
+# print(n[::-1])
+n.reverse()
+print(n)
+
+n.sort()
+print(n)
+n.sort(reverse = True)
+print(n)
+
+
+p = [1,2,34,5,676,4,322,111]
+print(max(p))
+print(min(p))
