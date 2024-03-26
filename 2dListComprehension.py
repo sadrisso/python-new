@@ -37,3 +37,25 @@ for i in m:
         n.append(i)
         count += 1
 print(count)
+
+
+# extract element from a list
+
+testList = [1,2,2,3,3,3,3,4,4,4,4,5,5,5,5,5,6,6]
+k = 3
+x = []
+for i in testList:
+    freq = testList.count(i)
+    if freq > k and i not in x:
+        x.append(i)
+print(x)
+
+
+myList = [1,1,1,1,3,3,3,3,5,5,5,5,66,66,77,77,78]
+element = 3
+y = []
+for i in myList:
+    f = myList.count(i)
+    if f > element and i not in y:
+        y.append(i)
+print(y)
