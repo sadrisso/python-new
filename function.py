@@ -49,12 +49,10 @@ calculateAverage(20)
 
 def getAvg(*numbers):
     sum = 0
-    count = 0
     for i in numbers:
-        count += 1
         sum += i
-        avg = sum/count
+        avg = sum/len(numbers)
         print(avg)
 
-getAvg(3,7,10,40,50)
+getAvg(3,7,10,40)
     
