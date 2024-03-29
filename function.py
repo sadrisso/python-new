@@ -55,4 +55,19 @@ def getAvg(*numbers):
         print(avg)
 
 getAvg(3,7,10,40)
-    
+
+
+# tuple basic
+
+tup = (1,222,3,4,5,6, 'red', True, False, 'Hi', 334)
+print(type(tup), tup)
+print(tup[0])
+print(tup[-1])
+
+if 22 in tup:
+    print('Yes 22 is present in', tup)
+else:
+    print('No 22 ' + 'Check', tup)
+
+tup2 = tup[1:4]
+print('Tuple 2 is here', tup2)
