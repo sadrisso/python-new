@@ -36,4 +36,25 @@ def isLesser(w,x):
     pass
 
 
+# default arguments in function
+
+def calculateAverage(x = 10, y = 20):
+    print('Average is', (x+y)/2)
+
+calculateAverage(20)
+
+
+
+# function for getting average
+
+def getAvg(*numbers):
+    sum = 0
+    count = 0
+    for i in numbers:
+        count += 1
+        sum += i
+        avg = sum/count
+        print(avg)
+
+getAvg(3,7,10,40,50)
     
