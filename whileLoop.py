@@ -28,3 +28,13 @@ while z >= 0:
     if z == 10:
         continue
     print(z)
+
+
+nums = (1,2,3,4,55,632,21,1)
+m = 632
+i = 0
+while i < len(nums):
+    if nums[i] == m:
+        print('Found')
+    i += 1
+   
