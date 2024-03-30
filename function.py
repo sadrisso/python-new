@@ -71,3 +71,5 @@ else:
 
 tup2 = tup[1:4]
 print('Tuple 2 is here', tup2)
+
+
