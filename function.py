@@ -73,3 +73,14 @@ tup2 = tup[1:4]
 print('Tuple 2 is here', tup2)
 
 
+
+def myFunction(you, me):
+    if you and me == 'love':
+        print('we are in love')
+    if you == 'love':
+        print('half love')
+    if you and me == 'hate':
+        print('devorce')
+
+myFunction('love', 'hate')
+
