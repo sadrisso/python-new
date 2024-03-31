@@ -105,3 +105,24 @@ def findFactorial(n):
 findFactorial(5)
 findFactorial(6)
 findFactorial(7)
+
+
+
+# usd to bdt function 
+
+def calc_bdt(usd):
+    bdt = usd*100
+    print(usd,'USD = ', bdt,'BDT')
+
+calc_bdt(8)
+
+
+# even odd print
+
+def even_or_odd(num):
+    if num % 2 == 0:
+        print(num, '=', 'Even')
+    else:
+        print(num, '=', 'Odd')
+
+even_or_odd(32)
