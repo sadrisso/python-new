@@ -84,3 +84,24 @@ def myFunction(you, me):
 
 myFunction('love', 'hate')
 
+
+
+def printList(list):
+    for item in list:
+        print(item, end = ' ')
+
+printList([1,2,3,4,54,5,6,67,78,544])
+
+
+# factorial fiding function
+
+
+def findFactorial(n):
+    factorial = 1
+    for i in range(1, n+1):
+        factorial *= i
+    print(factorial)
+
+findFactorial(5)
+findFactorial(6)
+findFactorial(7)
