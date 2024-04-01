@@ -126,3 +126,43 @@ def even_or_odd(num):
         print(num, '=', 'Odd')
 
 even_or_odd(32)
+
+
+# recursive function
+
+def recursive_func(n):
+    if n == 0:
+        return
+    print(n)
+    recursive_func(n-1)
+
+recursive_func(10)
+
+
+def factorial(n):
+    if n == 1 or n == 0:
+        return 1
+    return factorial(n-1) * n
+
+print(factorial(5))
+
+
+def calc_sum(x):
+    if x == 0:
+        return 0
+    return calc_sum(x-1) + x
+    
+
+sum = calc_sum(5)
+print(sum)
+
+
+def print_list(list, index=0):
+    if index == len(list):
+        return
+    print(list[index])
+    print_list(list, index+1)
+
+
+counties = ['india', 'bangladesh', 'srilanka', 'nepal', 'indonesia']
+print_list(counties)
