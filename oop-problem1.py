@@ -14,8 +14,13 @@ class Student:
             sum += val
         print('Hi', self.name, 'your avg score is: ', sum/3)
 
+    @staticmethod
+    def hello():
+        print('Hello')
+
 s1 = Student('Miraz', [80, 78, 98])
 s1.calculate_average()
+s1.hello()
 
 
 
