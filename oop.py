@@ -1,5 +1,6 @@
 
 class Student:
+    
     name = 'Karan Sharma'
     age = 12
     section = 'A'
@@ -52,3 +53,21 @@ p3 = Person('Mahmudullah', 50)
 print(p1.name, p1.age, p1.matches)
 print(p2.name, p2.age, p2.matches)
 print(p3.name, p3.age, p3.matches)
+
+
+class Player1:
+
+    def __init__(self, name, skill):
+        self.name = name
+        self.skill = skill
+
+    def welcome(self):
+        print('Welcome', self.name)
+
+    def get_skill(self):
+        print(self.skill)
+
+
+p1 = Player1('Shakib Al Hasan', 'All-Rounder')
+p1.welcome()
+p1.get_skill()
