@@ -25,6 +25,7 @@ class Student:
         return str((self.phy + self.chm + self.math) / 3) + '%'
 
 s1 = Student(98, 99, 89)
+s1.phy = 88
 print(s1.percentage)
 
 
