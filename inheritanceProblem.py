@@ -25,3 +25,17 @@ e1.show_details()
 
 e2 = Engineer('Drisso', 26)
 e2.show_details()
+
+
+class Order:
+    def __init__(self, item, price):
+        self.item = item
+        self.price = price
+    
+    def __gt__(self, o2):
+        return self.price > o2.price
+
+
+o1 = Order('Pizza', 'USD20')
+o2 = Order('Burger', 'USD15')
+print(o1>o2)
